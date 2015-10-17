@@ -1,10 +1,12 @@
 <div>{{ site.data.l10n.t[page.lang].index.Language }}</div>
-<nav>
-    <a href="{{ site.baseurl }}/">en</a>
-    <a href="{{ site.baseurl }}/fr/">fr</a>
-    <a href="{{ site.baseurl }}/ua/">ua</a>
-    <a href="{{ site.baseurl }}/ru/">ru</a>
+<nav class="lang">
+    <a class="en" href="{{ site.baseurl }}/">en</a>
+    <a class="fr" href="{{ site.baseurl }}/fr/">fr</a>
+    <a class="ua" href="{{ site.baseurl }}/ua/">ua</a>
+    <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
 </nav>
+<hr>
 <main>
     <div>{{ page.title }}</div>
 </main>
+<hr>
