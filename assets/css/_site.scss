@@ -5,8 +5,11 @@ nav.lang a.ru:lang(ru) {
     font-weight: 700;
     text-transform: uppercase;
 }
+nav.lang a.fr,
+nav.lang a.ua {
+    display: none;
+}
 
 body {
     background: #eee;
-    text-align: center;
 }
