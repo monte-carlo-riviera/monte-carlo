@@ -1,15 +1,29 @@
 t:
   en:
-    index:
-      Language: "Language"
+    Language: 'Language'
+    Brand: '«Monte-Carlo-Riviera» LLC'
+    Slogan0: 'Real Estate Abroad'
+    Slogan1: 'Real Estate in Monaco and on the French Riviera'
+    Slogan2: 'All Kinds of Operations'
+    Slogan3: 'Full Legal Support'
+    Slogan4: 'Legal Advice on French Law'
   fr:
-    index:
-      Language: 'Langue'
+    Language: 'Langue'
   ua:
-    index:
-      Language: 'Мова'
+    Language: 'Мова'
   ru:
-    index:
-      Language: 'Язык'
+    Language: 'Язык'
+    Brand: 'ООО «Монте-Карло-Ривьера»'
+    Slogan0: 'Агентство Зарубежной Недвижимости'
+    Slogan1: 'Недвижимость в Монако и на Лазурном Берегу Франции'
+    Slogan2: 'Все Виды Операций'
+    Slogan3: 'Полное Юридическое Сопровождение Сделок'
+    Slogan4: 'Юридичиские Консультации По Французскому Праву'
+
+
+
+
+
+
 
 
