@@ -1,3 +1,5 @@
+// $path: "../fonts/";
+
 nav.lang {
     position: fixed;
     z-index: 100;
@@ -44,7 +46,7 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: #eee url(/assets/img/bg.png);
+    background: #eee url(../img/bg.png);
     height: 100%;
     margin: 0;
 }
@@ -61,7 +63,7 @@ header {
     width: 100%;
     position: relative;
     text-align: center;
-    background: #000 url(/assets/img/photo01-blurred.jpg) center no-repeat;
+    background: #000 url(../img/photo01-blurred.jpg) center no-repeat;
     background-size: cover;
 
     .content {
@@ -108,7 +110,7 @@ header {
         right: 0;
         left: 0;
         bottom: 0;
-        background: #000 url(/assets/img/photo01.jpg) center no-repeat;
+        background: #000 url(../img/photo01.jpg) center no-repeat;
         background-size: cover;
         z-index: 0;
         opacity: 0;
