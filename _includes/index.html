@@ -1,26 +1,34 @@
-<div>{{ site.data.l10n.t[page.lang].Language }}</div>
 <nav class="lang">
     <a class="en" href="{{ site.baseurl }}/">en</a>
     <a class="fr" href="{{ site.baseurl }}/fr/">fr</a>
     <a class="ua" href="{{ site.baseurl }}/ua/">ua</a>
     <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
 </nav>
-<hr>
+<header>
+    <div class="overlay"></div>
+    <div class="content">
+        <hgroup>
+            <img src="{{ site.baseurl }}/assets/img/monte-carlo-riviera-logo.png" alt="Monte Carlo Riviera Logo">
+            <h1>{{ site.data.l10n.t[page.lang].Brand }}</h1>
+            <h2>{{ site.data.l10n.t[page.lang].Slogan0 }}</h2>
+        </hgroup>
+    </div>
+</header>
 <main>
-    <img src="{{ site.baseurl }}/assets/img/monte-carlo-riviera-logo.png" alt="Monte Carlo Riviera Logo">
-    <h1>{{ site.data.l10n.t[page.lang].Brand }}</h1>
-    <h2>{{ site.data.l10n.t[page.lang].Slogan0 }}</h2>
     <h3>{{ site.data.l10n.t[page.lang].Slogan1 }}</h3>
     <h3>{{ site.data.l10n.t[page.lang].Slogan2 }}</h3>
     <h3>{{ site.data.l10n.t[page.lang].Slogan3 }}</h3>
+    <hr>
     <h3>{{ site.data.l10n.t[page.lang].Slogan4 }}</h3>
     <div>{{ site.data.l10n.t[page.lang].WorkTime }}</div>
     <p>{{ site.data.l10n.t[page.lang].WeSpeek }}</p>
+    <hr>
     <p>{{ site.data.l10n.t[page.lang].About1 }}</p>
     <p>{{ site.data.l10n.t[page.lang].About2 }}</p>
     <p>{{ site.data.l10n.t[page.lang].About3 }}</p>
     <p>{{ site.data.l10n.t[page.lang].About4 }}</p>
     <p>{{ site.data.l10n.t[page.lang].About5 }}</p>
+    <hr>
     <h3>{{ site.data.l10n.t[page.lang].ListTitle }}</h3>
     <ul>
         <li>{{ site.data.l10n.t[page.lang].Li1 }}</li>
@@ -28,6 +36,7 @@
         <li>{{ site.data.l10n.t[page.lang].Li3 }}</li>
         <li>{{ site.data.l10n.t[page.lang].Li4 }}</li>
     </ul>
-    <p>{{ site.data.l10n.t[page.lang].WeLocated }}</p>
+    <hr>
+    <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
     <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
 </main>

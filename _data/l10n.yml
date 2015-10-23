@@ -1,6 +1,5 @@
 t:
   en:
-    Language: 'Language'
     Brand: '«Monte-Carlo-Riviera» LLC'
     Slogan0: 'Real Estate Abroad'
     Slogan1: 'Real Estate in Monaco and on the French Riviera'
@@ -21,10 +20,6 @@ t:
     Li4: 'VAT: 20%, or 5.5%'
     WeLocated: 'We are located at:'
     Contacts: 'Pushkinskaya street 8A, of. 2<br>01134 Kyiv, Ukraine<br>Mob .: +38 (067) 310-77-33<br>Tel. / Fax: +38 (044) 279-00-54'
-  fr:
-    Language: 'Langue'
-  ua:
-    Language: 'Мова'
   ru:
     Language: 'Язык'
     Brand: 'ООО «Монте-Карло-Ривьера»'
@@ -47,4 +42,6 @@ t:
     Li4: 'НДС: 20% или 5,5%'
     WeLocated: 'Мы находимся по адресу:'
     Contacts: 'ул. Пушкинская 8А, оф. 2<br>01134 г. Киев<br>моб.: +38 (067) 310-77-33<br>тел./факс: +38 (044) 279-00-54'
+  fr:
+  ua:
 
