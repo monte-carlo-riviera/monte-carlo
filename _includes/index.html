@@ -4,6 +4,7 @@
     <a class="ua" href="{{ site.baseurl }}/ua/">ua</a>
     <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
 </nav>
+
 <header>
     <div class="overlay"></div>
     <div class="content">
@@ -14,29 +15,41 @@
         </hgroup>
     </div>
 </header>
+
 <main>
-    <h3>{{ site.data.l10n.t[page.lang].Slogan1 }}</h3>
-    <h3>{{ site.data.l10n.t[page.lang].Slogan2 }}</h3>
-    <h3>{{ site.data.l10n.t[page.lang].Slogan3 }}</h3>
-    <hr>
-    <h3>{{ site.data.l10n.t[page.lang].Slogan4 }}</h3>
-    <div>{{ site.data.l10n.t[page.lang].WorkTime }}</div>
-    <p>{{ site.data.l10n.t[page.lang].WeSpeek }}</p>
-    <hr>
-    <p>{{ site.data.l10n.t[page.lang].About1 }}</p>
-    <p>{{ site.data.l10n.t[page.lang].About2 }}</p>
-    <p>{{ site.data.l10n.t[page.lang].About3 }}</p>
-    <p>{{ site.data.l10n.t[page.lang].About4 }}</p>
-    <p>{{ site.data.l10n.t[page.lang].About5 }}</p>
-    <hr>
-    <h3>{{ site.data.l10n.t[page.lang].ListTitle }}</h3>
-    <ul>
-        <li>{{ site.data.l10n.t[page.lang].Li1 }}</li>
-        <li>{{ site.data.l10n.t[page.lang].Li2 }}</li>
-        <li>{{ site.data.l10n.t[page.lang].Li3 }}</li>
-        <li>{{ site.data.l10n.t[page.lang].Li4 }}</li>
-    </ul>
-    <hr>
-    <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
-    <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
+    <div class="well">
+        <h3>{{ site.data.l10n.t[page.lang].Slogan1 }}</h3>
+        <h3>{{ site.data.l10n.t[page.lang].Slogan2 }}</h3>
+        <h3>{{ site.data.l10n.t[page.lang].Slogan3 }}</h3>
+        <hr>
+        <h3>{{ site.data.l10n.t[page.lang].Slogan4 }}</h3>
+        <div>{{ site.data.l10n.t[page.lang].WorkTime }}</div>
+        <p>{{ site.data.l10n.t[page.lang].WeSpeek }}</p>
+    </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/photo02-blurred.jpg">
+        <hgroup>
+            <h2>Стас Борецкий</h2>
+            <h2>Никита Джигурда</h2>
+        </hgroup>
+    </div>
+
+    <div class="well">
+        <p>{{ site.data.l10n.t[page.lang].About1 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].About2 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].About3 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].About4 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].About5 }}</p>
+        <hr>
+        <h3>{{ site.data.l10n.t[page.lang].ListTitle }}</h3>
+        <ul>
+            <li>{{ site.data.l10n.t[page.lang].Li1 }}</li>
+            <li>{{ site.data.l10n.t[page.lang].Li2 }}</li>
+            <li>{{ site.data.l10n.t[page.lang].Li3 }}</li>
+            <li>{{ site.data.l10n.t[page.lang].Li4 }}</li>
+        </ul>
+        <hr>
+        <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
+        <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
+    </div>
 </main>
