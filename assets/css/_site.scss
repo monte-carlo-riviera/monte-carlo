@@ -1,5 +1,3 @@
-// $path: "../fonts/";
-
 nav.lang {
     position: fixed;
     z-index: 100;
@@ -26,18 +24,18 @@ nav.lang {
             color: #ED1C24;
             // background: #fff;
         }
+        &.fr:lang(fr),
+        &.en:lang(en),
+        &.ua:lang(ua),
+        &.ru:lang(ru) {
+            color: #ED1C24;
+            // background: #fff;
+        }
+        &.fr,
+        &.ua {
+            display: none;
+        }
     }
-}
-nav.lang a.fr:lang(fr),
-nav.lang a.en:lang(en),
-nav.lang a.ua:lang(ua),
-nav.lang a.ru:lang(ru) {
-    color: #ED1C24;
-    // background: #fff;
-}
-nav.lang a.fr,
-nav.lang a.ua {
-    display: none;
 }
 
 html {
