@@ -18,23 +18,27 @@
 
 <main>
     <div class="well">
-        <h3>{{ site.data.l10n.t[page.lang].Slogan1 }}</h3>
-        <h3>{{ site.data.l10n.t[page.lang].Slogan2 }}</h3>
-        <h3>{{ site.data.l10n.t[page.lang].Slogan3 }}</h3>
+
+        <div class="slogan-wrap">
+            <div class="slogan-item">
+                <img src="{{ site.baseurl }}/assets/img/slogan/slogan1.png" alt="...">
+                <h3>{{ site.data.l10n.t[page.lang].Slogan1 }}</h3>
+            </div>
+            <div class="slogan-item">
+                <img src="{{ site.baseurl }}/assets/img/slogan/slogan2.png" alt="...">
+                <h3>{{ site.data.l10n.t[page.lang].Slogan2 }}</h3>
+            </div>
+            <div class="slogan-item">
+                <img src="{{ site.baseurl }}/assets/img/slogan/slogan3.png" alt="...">
+                <h3>{{ site.data.l10n.t[page.lang].Slogan3 }}</h3>
+            </div>
+        </div>
+
         <hr>
         <h3>{{ site.data.l10n.t[page.lang].Slogan4 }}</h3>
         <div>{{ site.data.l10n.t[page.lang].WorkTime }}</div>
         <p>{{ site.data.l10n.t[page.lang].WeSpeek }}</p>
-    </div>
-
-    <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/photo02-blurred.jpg">
-        <hgroup>
-            <h2>Стас Борецкий</h2>
-            <h2>Никита Джигурда</h2>
-        </hgroup>
-    </div>
-
-    <div class="well">
+        <hr>
         <p>{{ site.data.l10n.t[page.lang].About1 }}</p>
         <p>{{ site.data.l10n.t[page.lang].About2 }}</p>
         <p>{{ site.data.l10n.t[page.lang].About3 }}</p>
@@ -48,8 +52,14 @@
             <li>{{ site.data.l10n.t[page.lang].Li3 }}</li>
             <li>{{ site.data.l10n.t[page.lang].Li4 }}</li>
         </ul>
-        <hr>
-        <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
-        <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
     </div>
+
+    <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/photo02-blurred.jpg">
+        <hgroup>
+            <img src="{{ site.baseurl }}/assets/img/monte-carlo-riviera-logo.png" alt="Monte Carlo Riviera Logo">
+            <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
+            <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
+        </hgroup>
+    </div>
+
 </main>
