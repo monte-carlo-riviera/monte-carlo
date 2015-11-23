@@ -38,24 +38,6 @@ nav.lang {
     }
 }
 
-html {
-    height: 100%;
-}
-
-body {
-    font-family: 'Ubuntu', sans-serif;
-    background: #eee url(../img/bg.png);
-    height: 100%;
-    margin: 0;
-}
-
-main {
-    
-}
-
-.well {
-    padding: 40px;
-}
 
 /**
 * header
@@ -120,11 +102,11 @@ header {
     }
 }
 
+
 /**
 * slogan
 * ----------------------------------------------------------------------------
 */
-
 .slogan-wrap {
     @include clearfix;
     text-align: center;
@@ -134,14 +116,18 @@ header {
         float: left;
         width: 33.3333333333333333%;
 
-        img {
-            display: block;
-            margin: 0 auto 30px;
-            width: 100%;
-            max-width: 200px;
-        }
         h3 {
             margin-bottom: 60px;
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
