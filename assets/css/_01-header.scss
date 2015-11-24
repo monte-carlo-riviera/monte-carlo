@@ -1,0 +1,15 @@
+header.header {
+
+    nav.lang {
+
+        a {
+            &.en:lang(en), 
+            &.pl:lang(pl), 
+            &.ua:lang(ua),
+            &.ru:lang(ru){
+                background: #C3996F;
+                color: #fff;
+            }
+        }
+    }
+}

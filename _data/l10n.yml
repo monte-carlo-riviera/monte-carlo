@@ -1,11 +1,11 @@
 t:
   en:
     Brand: '«Monte-Carlo-Riviera» LLC'
-    Slogan0: 'Real Estate Abroad'
-    Slogan1: 'Real Estate in Monaco and on the French Riviera'
-    Slogan2: 'All Kinds of Operations'
-    Slogan3: 'Full Legal Support'
-    Slogan4: 'Legal Advice on French Law'
+    Feature0: 'Real Estate Abroad'
+    Feature1: 'Real Estate in Monaco and on the French Riviera'
+    Feature2: 'All Kinds of Operations'
+    Feature3: 'Full Legal Support'
+    Feature4: 'Legal Advice on French Law'
     WorkTime: 'Monday - Friday: From 09:00 to 18:00<br>Saturday - Sunday: By appointment<br>+38 (067) 310 77 33'
     WeSpeek: 'Nous Parlons Français'
     About1: "«Monte-Carlo-Riviera» LLC is the first company of Monaco's and French Riviera's real estate operating in the Ukrainian market on a straight line without intermediaries."
@@ -22,11 +22,11 @@ t:
     Contacts: 'Pushkinskaya street 8A, of. 2<br>01134 Kyiv, Ukraine<br>Mob .: +38 (067) 310-77-33<br>Tel. / Fax: +38 (044) 279-00-54'
   ru:
     Brand: 'ООО «Монте-Карло-Ривьера»'
-    Slogan0: 'Агентство Зарубежной Недвижимости'
-    Slogan1: 'Недвижимость в Монако и на Лазурном Берегу Франции'
-    Slogan2: 'Все Виды Операций'
-    Slogan3: 'Полное Юридическое Сопровождение Сделок'
-    Slogan4: 'Юридичиские Консультации По Французскому Праву'
+    Feature0: 'Агентство Зарубежной Недвижимости'
+    Feature1: 'Недвижимость в Монако и на Лазурном Берегу Франции'
+    Feature2: 'Все Виды Операций'
+    Feature3: 'Полное Юридическое Сопровождение Сделок'
+    Feature4: 'Юридичиские Консультации По Французскому Праву'
     WorkTime: 'Понедельник – Пятница: С 09:00 До 18:00<br>Суббота – Воскресение: По Предварительной Записи<br>+38 (067) 310 77 33'
     WeSpeek: 'We Speak English, Nous Parlons Français'
     About1: 'Общество с ограниченной ответственностью «Монте-Карло-Ривьера» является первой компанией на украинском рынке работающей с недвижимостью в Монако и Лазурном Берегу Франции на прямую без посредников.'

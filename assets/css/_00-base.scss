@@ -3,11 +3,14 @@ html {
 }
 
 body {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Playfair Display', serif;
     background: #eee;
     height: 100%;
     margin: 0;
     @include outer-container;
 }
 
-
+a {
+    text-decoration: none;
+}
