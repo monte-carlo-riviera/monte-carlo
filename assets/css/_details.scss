@@ -1,0 +1,37 @@
+section.details {
+    position: relative;
+    background: #fff;
+
+    .text {
+        position: relative;
+        padding: 20px;
+
+        p {
+            margin: 0;
+            position: relative;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            padding-left: 40px;
+            padding-right: 60%;
+            // border-bottom: 1px solid #ddd;
+
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 28px;
+                height: 28px;
+                background: url(../img/icons/circle.svg) no-repeat;
+            }
+        }
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        height: 100%;
+    }
+}

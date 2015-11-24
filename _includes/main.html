@@ -1,4 +1,9 @@
 <main>
+    <section>
+        <p>{{ site.data.l10n.t[page.lang].About1 }}</p>
+        <img src="{{ site.baseurl }}/assets/img/photos/monte-carlo-1.jpg" alt="Monte Carlo Photo 1">
+    </section>
+
     <div class="well">
 
         <div class="slogan-wrap">
@@ -18,12 +23,6 @@
         <div>{{ site.data.l10n.t[page.lang].WorkTime }}</div>
         <p>{{ site.data.l10n.t[page.lang].WeSpeek }}</p>
         <hr>
-        <p>{{ site.data.l10n.t[page.lang].About1 }}</p>
-        <p>{{ site.data.l10n.t[page.lang].About2 }}</p>
-        <p>{{ site.data.l10n.t[page.lang].About3 }}</p>
-        <p>{{ site.data.l10n.t[page.lang].About4 }}</p>
-        <p>{{ site.data.l10n.t[page.lang].About5 }}</p>
-        <hr>
         <h3>{{ site.data.l10n.t[page.lang].ListTitle }}</h3>
         <ul>
             <li>{{ site.data.l10n.t[page.lang].Li1 }}</li>
@@ -31,15 +30,23 @@
             <li>{{ site.data.l10n.t[page.lang].Li3 }}</li>
             <li>{{ site.data.l10n.t[page.lang].Li4 }}</li>
         </ul>
+
+        <hr>
+
+        <img src="{{ site.baseurl }}/assets/img/monte-carlo-riviera-logo.png" alt="Monte Carlo Riviera Logo">
+        <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
+        <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
+
     </div>
 
-    <div class="parallax-window" data-parallax="scroll" data-image-src="{{ site.baseurl }}/assets/img/photo02-blurred.jpg">
-        <hgroup>
-            <img src="{{ site.baseurl }}/assets/img/monte-carlo-riviera-logo.png" alt="Monte Carlo Riviera Logo">
-            <h3>{{ site.data.l10n.t[page.lang].WeLocated }}</h3>
-            <div>{{ site.data.l10n.t[page.lang].Contacts }}</div>
-        </hgroup>
-    </div>
-
+    <section class="details">
+        <img src="{{ site.baseurl }}/assets/img/photos/monte-carlo-2.jpg" alt="Monte Carlo Photo 2">
+        <div class="text">
+            <p>{{ site.data.l10n.t[page.lang].About2 }}</p>
+            <p>{{ site.data.l10n.t[page.lang].About3 }}</p>
+            <p>{{ site.data.l10n.t[page.lang].About4 }}</p>
+            <p>{{ site.data.l10n.t[page.lang].About5 }}</p>
+        </div>
+    </section>
 </main>
 
