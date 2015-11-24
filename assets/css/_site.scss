@@ -1,3 +1,7 @@
+main {
+    
+}
+
 nav.lang {
     position: fixed;
     z-index: 100;
@@ -12,37 +16,21 @@ nav.lang {
         font-weight: 500;
         padding: 8px;
         display: inline-block;
-        // border-radius: 50px;
-        // background: #ED1C24;
         @include transition(all .1s ease);
 
         &:hover {
             color: #ED1C24;
-            // background: #fff;
         }
         &:active {
             color: #ED1C24;
-            // background: #fff;
         }
-        &.fr:lang(fr),
         &.en:lang(en),
-        &.ua:lang(ua),
         &.ru:lang(ru) {
             color: #ED1C24;
-            // background: #fff;
-        }
-        &.fr,
-        &.ua {
-            display: none;
         }
     }
 }
 
-
-/**
-* slogan
-* ----------------------------------------------------------------------------
-*/
 .slogan-wrap {
     @include clearfix;
     text-align: center;

@@ -4,17 +4,10 @@ html {
 
 body {
     font-family: 'Ubuntu', sans-serif;
-    background: #eee url(../img/bg.png);
+    background: #eee;
     height: 100%;
     margin: 0;
     @include outer-container;
 }
 
-main {
-    
-}
-
-.well {
-    padding: 40px;
-}
 
