@@ -18,6 +18,8 @@ body {
 
 a {
     text-decoration: none;
+    outline: none;
+    @include transition(color .2s ease-in-out);
 }
 
 h1, h2, p {

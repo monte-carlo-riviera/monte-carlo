@@ -1,16 +1,14 @@
 <footer class="footer">
     <div class="footer_copyright">
-        <div class="footer_logo">
-            {% include svg/logo-monte-carlo.svg %}
-        </div>
-        <div class="footer_text">© 2016<br>All rights reserved</div>
+        {% include svg/logo-monte-carlo.svg %}
+        <p>{{ site.data.l10n.t[page.lang].FooterCopyright }}</p>
     </div>
-    <a class="footer_powered" href="http://rooooster.com/" target="_blank">
-        <div class="footer_text">Powered by<br>ROOSTER STUDIO</div>
-        <div class="footer_logo">
+    <div class="footer_powered">
+        <a href="http://rooooster.com/" target="_blank">
             {% include svg/logo-rooster-studio.svg %}
-        </div>
-    </a>
+            <p>{{ site.data.l10n.t[page.lang].FooterPowered }}</p>
+        </a>
+    </div>
 </footer>
 
 
