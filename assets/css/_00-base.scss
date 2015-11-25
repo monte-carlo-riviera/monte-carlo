@@ -1,6 +1,6 @@
-$colorFirmRed: #D8232A;
-$colorFirmBlackGray: #4A4A4A;
-$colorFirmLightGray: #9B9B9B;
+$colorRed: #D8232A;
+$colorBlackGray: #4A4A4A;
+$colorLightGray: #9B9B9B;
 
 html {
     height: 100%;
@@ -8,8 +8,8 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background: #eee;
-    color: $colorFirmBlackGray;
+    background: #fff;
+    color: $colorBlackGray;
     font-size: 14px;
     height: 100%;
     margin: 0;
@@ -23,6 +23,10 @@ a {
 h1, h2, p {
     margin: 0;
     font-weight: 400;
+}
+
+h1 {
+    font-size: 20px;
 }
 
 h2 {

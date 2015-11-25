@@ -1,50 +1,46 @@
-section.details {
+.details {
     @include span-columns(12);
-    background: #fff;
     overflow: hidden;
-    // background: url(../img/photos/monte-carlo-2.jpg) right bottom no-repeat;
-    // background-size: cover;
     position: relative;
     z-index: 60;
 
-    .text {
+    &_text {
         position: relative;
         padding: 50px;
         width: 35%;
         background: #fff;
+    }
+
+    &_item {
+        position: relative;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #eee;
+        margin-left: 50px;
+
+        &:last-child {
+            border: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        svg {
+            width: 30px;
+            position: absolute;
+            top: 0;
+            left: -50px;
+        }
 
         p {
-            margin: 0;
-            position: relative;
-            margin-left: 50px;
-            padding-bottom: 25px;
-            margin-bottom: 25px;
-            border-bottom: 1px solid #eee;
 
-            &:last-child {
-                border: none;
-                margin-bottom: 0;
-                padding-bottom: 0;
-            }
-
-            &:before {
-                content: '';
-                position: absolute;
-                top: 0;
-                left: -50px;
-                width: 30px;
-                height: 30px;
-                background: url(../img/icons/circle.svg) no-repeat;
-            }
         }
     }
 
     img {
         position: absolute;
         bottom: 0;
-        right: 0;
+        left: 35%;
         width: 65%;
-        // @include transform(translate3d(0,-50%,0));
-        // display: none;
+        height: auto;
     }
 }
