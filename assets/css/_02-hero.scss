@@ -1,56 +1,5 @@
-footer.footer {
-    background: #3B3B3B;
-    color: #9B9B9B;
-    padding: 100px 60px;
+.hero {
     @include span-columns(12);
+    position: relative;
+    z-index: 90;
 }
-
-
-$logoWidth: 10%;
-$textPaddind: 4%;
-
-.copyright {
-    @include span-columns(6);
-
-    &_logo {
-        float: left;
-        width: $logoWidth;
-    }
-    &_text {
-        float: left;
-        padding-left: $textPaddind;
-        width: 100% - $logoWidth;
-    }
-}
-
-.powered {
-    text-align: right;
-    color: #9B9B9B;
-    @include span-columns(6);
-
-    &_text {
-        float: left;
-        width: 100% - $logoWidth;
-        padding-right: $textPaddind;
-    }
-    &_logo {
-        float: left;
-        width: $logoWidth;
-
-        // img {
-        //     max-width: 82px;
-        // }
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-

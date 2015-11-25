@@ -1,8 +1,10 @@
 footer.footer {
     background: #3B3B3B;
-    color: #9B9B9B;
+    color: $colorFirmLightGray;
     padding: 100px 60px;
     @include span-columns(12);
+    position: relative;
+    z-index: 50;
 }
 
 
@@ -15,6 +17,11 @@ $textPaddind: 4%;
     &_logo {
         float: left;
         width: $logoWidth;
+
+        svg {
+            display: block;
+            fill: $colorFirmLightGray;
+        }
     }
     &_text {
         float: left;
@@ -25,7 +32,7 @@ $textPaddind: 4%;
 
 .powered {
     text-align: right;
-    color: #9B9B9B;
+    color: $colorFirmLightGray;
     @include span-columns(6);
 
     &_text {
@@ -37,9 +44,10 @@ $textPaddind: 4%;
         float: left;
         width: $logoWidth;
 
-        // img {
-        //     max-width: 82px;
-        // }
+        svg {
+            display: block;
+            fill: $colorFirmLightGray;
+        }
     }
 }
 

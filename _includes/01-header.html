@@ -1,12 +1,24 @@
 <header class="header">
-    <nav class="lang">
-        <a class="en" href="{{ site.baseurl }}/">en</a>
-        <a class="ru" href="{{ site.baseurl }}/ru/">ru</a>
-    </nav>
+    <div class="header_left">
+        <a href="{{ site.baseurl }}/">
+            {% include svg/logo-monte-carlo.svg %}
+        </a>
+        <nav class="lang">
+            <a class="en" href="{{ site.baseurl }}/">{{ site.data.l10n.t[page.lang].En }}</a>
+            <a class="ru" href="{{ site.baseurl }}/ru/">{{ site.data.l10n.t[page.lang].Ru }}</a>
+        </nav>
+    </div>
+    <div class="header_top">
+        <h1>{{ site.data.l10n.t[page.lang].Brand }}</h1>
+        <!-- <h2>{{ site.data.l10n.t[page.lang].Feature0 }}</h2> -->
 
-    <img src="{{ site.baseurl }}/assets/img/logos/monte-carlo.svg" alt="Monte Carlo Logo">
-    <h1>{{ site.data.l10n.t[page.lang].Brand }}</h1>
-    <h2>{{ site.data.l10n.t[page.lang].Feature0 }}</h2>
+        <h2>{{ site.data.l10n.t[page.lang].Feature4 }}</h2>
+        <p>{{ site.data.l10n.t[page.lang].WeSpeek }}</p>
+    </div>
+    <div class="header_bottom">
+        <p>{{ site.data.l10n.t[page.lang].Contacts1 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].Contacts2 }}</p>
+        <p>{{ site.data.l10n.t[page.lang].Contacts3 }}</p>
+    </div>
 </header>
-
 

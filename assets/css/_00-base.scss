@@ -1,11 +1,16 @@
+$colorFirmRed: #D8232A;
+$colorFirmBlackGray: #4A4A4A;
+$colorFirmLightGray: #9B9B9B;
+
 html {
     height: 100%;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    // font-family: 'Playfair Display', serif;
     background: #eee;
+    color: $colorFirmBlackGray;
+    font-size: 14px;
     height: 100%;
     margin: 0;
     @include outer-container;
@@ -13,4 +18,17 @@ body {
 
 a {
     text-decoration: none;
+}
+
+h1, h2, p {
+    margin: 0;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
 }
