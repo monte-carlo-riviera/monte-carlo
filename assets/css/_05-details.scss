@@ -6,9 +6,17 @@
 
     &_text {
         position: relative;
-        padding: 50px;
-        width: 35%;
+        padding: 50px 40px 50px 35px;
+        width: 40%;
         background: #fff;
+
+        @include media($tablet) {
+            width: 70%;
+        }
+
+        @include media($mobile) {
+            width: 100%;
+        }
     }
 
     &_item {
@@ -42,5 +50,12 @@
         left: 35%;
         width: 65%;
         height: auto;
+        display: block;
+
+        @include media($mobile) {
+            position: relative;
+            left: 0;
+            width: 100%;
+        }
     }
 }

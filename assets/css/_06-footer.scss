@@ -10,12 +10,18 @@
         @include span-columns(6);
         position: relative;
 
+        @include media($mobile) {
+            @include span-columns(12);
+            margin-bottom: 40px;
+        }
+
         svg {
             position: absolute;
-            top: -2px;
+            top: 50%;
             left: 0;
             width: 42px;
             fill: $colorLightGray;
+            @include transform(translate3d(0,-50%,0));
         }
         p {
             padding-left: 70px;
@@ -24,9 +30,14 @@
     }
 
     &_powered {
-        text-align: right;
         @include span-columns(6);
         position: relative;
+        text-align: right;
+
+        @include media($mobile) {
+            @include span-columns(12);
+            text-align: left;
+        }
 
         a {
             color: $colorLightGray;
@@ -42,11 +53,19 @@
 
         svg {
             position: absolute;
-            top: -11px;
+            top: 50%;
             right: 0;
             width: 56px;
             fill: $colorLightGray;
             @include transition(fill .2s ease-in-out);
+            @include transform(translate3d(0,-50%,0));
+
+            @include media($mobile) {
+                right: auto;
+                left: 0;
+                width: 42px;
+            }
+
         }
         p {
             padding-right: 76px;
@@ -54,6 +73,12 @@
             display: inline-block;
             font-family: 'Montserrat', sans-serif;
             font-size: 16px;
+
+            @include media($mobile) {
+                padding-right: 0;
+                padding-left: 70px;
+                font-size: 13px;
+            }
 
             span {
                 text-transform: uppercase;

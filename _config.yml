@@ -22,18 +22,6 @@ defaults:
       lang: en
   -
     scope:
-      path: _posts/fr
-    values:
-      layout: default
-      lang: fr
-  -
-    scope:
-      path: _posts/ua
-    values:
-      layout: default
-      lang: ua
-  -
-    scope:
       path: _posts/ru
     values:
       layout: default

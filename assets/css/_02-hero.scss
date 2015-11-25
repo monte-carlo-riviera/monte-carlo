@@ -6,19 +6,35 @@
 
     &_text {
         position: relative;
-        padding: 50px 50px 200px;
-        width: 35%;
+        padding: 50px 50px 150px;
+        width: 40%;
         background: $colorRed;
         color: #fff;
 
-        h2 {
-            font-size: 40px;
-            margin-bottom: 20px;
+        @include media($tablet) {
+            padding: 50px;
         }
-        p {
-            font-size: 22px;
-            font-style: italic;
-            color: rgba(#fff, .7);
+
+        @include media($mobile) {
+            width: 100%;
+        }
+    }
+
+    h2 {
+        font-size: 40px;
+        margin-bottom: 20px;
+
+        @include media($tablet) {
+            font-size: 26px;
+        }
+    }
+    p {
+        font-size: 22px;
+        font-style: italic;
+        color: rgba(#fff, .7);
+
+        @include media($tablet) {
+            font-size: 16px;
         }
     }
 
@@ -28,5 +44,12 @@
         left: 35%;
         width: 65%;
         height: auto;
+        display: block;
+
+        @include media($mobile) {
+            position: relative;
+            left: 0;
+            width: 100%;
+        }
     }
 }

@@ -11,7 +11,7 @@
     &_item {
         float: left;
         width: 50%;
-        padding: 40px 0;
+        padding: 40px 20px;
 
         &:last-child {
             border-left: 1px solid #EF363E;
@@ -29,6 +29,11 @@
             font-weight: 700;
             text-transform: uppercase;
             letter-spacing: .87px;
+
+            @include media($mobile) {
+                font-weight: 400;
+                font-size: 11px;
+            }
         }
     }
 }
