@@ -1,0 +1,52 @@
+$logoWidth: 10%;
+$textPaddind: 4%;
+
+.footer {
+    background: #3B3B3B;
+    color: $colorLightGray;
+    padding: 100px 60px;
+    @include span-columns(12);
+    position: relative;
+    z-index: 50;
+
+    &_copyright {
+        @include span-columns(6);
+    }
+
+    &_powered {
+        text-align: right;
+        color: $colorLightGray;
+        @include span-columns(6);
+
+    }
+
+    &_text {
+        float: left;
+        width: 100% - $logoWidth;
+        padding-right: $textPaddind;
+    }
+
+    &_logo {
+        float: left;
+        width: $logoWidth;
+
+        svg {
+            display: block;
+            fill: $colorLightGray;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

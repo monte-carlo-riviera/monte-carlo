@@ -1,0 +1,46 @@
+.details {
+    @include span-columns(12);
+    overflow: hidden;
+    position: relative;
+    z-index: 60;
+
+    &_text {
+        position: relative;
+        padding: 50px;
+        width: 35%;
+        background: #fff;
+    }
+
+    &_item {
+        position: relative;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        border-bottom: 1px solid #eee;
+        margin-left: 50px;
+
+        &:last-child {
+            border: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        svg {
+            width: 30px;
+            position: absolute;
+            top: 0;
+            left: -50px;
+        }
+
+        p {
+
+        }
+    }
+
+    img {
+        position: absolute;
+        bottom: 0;
+        left: 35%;
+        width: 65%;
+        height: auto;
+    }
+}
