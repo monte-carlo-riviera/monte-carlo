@@ -1,5 +1,5 @@
 # build settings
-baseurl: /monte-carlo
+baseurl: 
 markdown: kramdown
 permalink: pretty
 
