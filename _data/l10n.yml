@@ -1,5 +1,8 @@
 t:
   en:
+    SeoTitle: 'Monte Carlo Riviera'
+    SeoAbout: 'Real Estate in Monaco and on the French Riviera'
+    SeoDescription: "«Monte Carlo Riviera» LLC is the first company of Monaco's and French Riviera's real estate operating in the Ukrainian market on a straight line without intermediaries."
     HeaderBrand: 'Monte Carlo<span>Riviera</span>'
     HeaderLegalAdvice: 'Legal Advice on French Law'
     HeaderWeSpeek: 'Nous Parlons Français'
@@ -7,7 +10,7 @@ t:
     HeaderContacts2: 'Monday - Friday: From 09:00 to 18:00<br>Saturday - Sunday: By appointment'
     HeaderContacts3: 'Mob .: +38 (067) 310-77-33<br>Tel. / Fax: +38 (044) 279-00-54'
     Hero1: 'Real Estate in Monaco and on the French Riviera'
-    Hero2: "«Monte-Carlo-Riviera» LLC is the first company of Monaco's and French Riviera's real estate operating in the Ukrainian market on a straight line without intermediaries."
+    Hero2: "«Monte Carlo Riviera» LLC is the first company of Monaco's and French Riviera's real estate operating in the Ukrainian market on a straight line without intermediaries."
     CharacteristicsTitle: 'Characteristics of the tax system in Monaco:'
     Characteristics1: 'Lack of income tax (the only taxed citizens are from France and the United States)'
     Characteristics2: 'Lack of land tax and property tax, the lack of professional tax'
@@ -22,6 +25,9 @@ t:
     FooterCopyright: '© 2016<br>All rights reserved'
     FooterPowered: 'Powered by<span>Rooster Studio</span>'
   ru:
+    SeoTitle: 'Монте Карло Ривьера'
+    SeoAbout: 'Недвижимость в Монако и на Лазурном Берегу Франции'
+    SeoDescription: 'Общество с ограниченной ответственностью «Монте Карло Ривьера» является первой компанией на украинском рынке работающей с недвижимостью в Монако и Лазурном Берегу Франции на прямую без посредников.'
     HeaderBrand: 'Монте Карло<span>Ривьера</span>'
     HeaderLegalAdvice: 'Юридичиские Консультации По Французскому Праву'
     HeaderWeSpeek: 'We Speak English, Nous Parlons Français'
@@ -29,7 +35,7 @@ t:
     HeaderContacts2: 'Понедельник – Пятница: С 09:00 До 18:00<br>Суббота – Воскресение: По Предварительной Записи'
     HeaderContacts3: 'моб.: +38 (067) 310-77-33<br>тел./факс: +38 (044) 279-00-54'
     Hero1: 'Недвижимость в Монако и на Лазурном Берегу Франции'
-    Hero2: 'Общество с ограниченной ответственностью «Монте-Карло-Ривьера» является первой компанией на украинском рынке работающей с недвижимостью в Монако и Лазурном Берегу Франции на прямую без посредников.'
+    Hero2: 'Общество с ограниченной ответственностью «Монте Карло Ривьера» является первой компанией на украинском рынке работающей с недвижимостью в Монако и Лазурном Берегу Франции на прямую без посредников.'
     CharacteristicsTitle: 'Характеристики налоговой системы в Монако:'
     Characteristics1: 'Отсутствие подоходного налога (налогом облагаются граждане Франции и США)'
     Characteristics2: 'Отсутствие земельного налога и налога на недвижимость, отсутствие профессионального налога'
