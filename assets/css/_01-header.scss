@@ -18,7 +18,7 @@
             fill: #fff;
             display: block;
             width: 52px;
-            margin: 0 auto 30px;
+            margin: 0 auto 20px;
         }
 
         @include media($mobile) {
@@ -80,9 +80,10 @@
 
         a {
             text-transform: uppercase;
-            color: #E35A5F;
+            color: #e35a5f;
             display: inline-block;
-            padding: 2px 4px;
+            padding: 10px 6px;
+            font-weight: 600;
 
             &:hover {
                 color: #fff;
