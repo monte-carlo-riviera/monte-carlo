@@ -6,7 +6,7 @@
     position: relative;
     z-index: 50;
 
-    &_copyright {
+    &__copyright {
         @include span-columns(6);
         position: relative;
 
@@ -29,7 +29,7 @@
         }
     }
 
-    &_powered {
+    &__powered {
         @include span-columns(6);
         position: relative;
         text-align: right;
@@ -65,14 +65,14 @@
                 left: 0;
                 width: 42px;
             }
-
         }
-        p {
-            padding-right: 76px;
-            letter-spacing: .87px;
+
+        &-text {
+            padding-right: 70px;
+            letter-spacing: 1px;
             display: inline-block;
-            font-family: 'Montserrat', sans-serif;
-            font-size: 16px;
+            font-size: 12px;
+            font-weight: 600;
 
             @include media($mobile) {
                 padding-right: 0;
