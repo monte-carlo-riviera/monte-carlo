@@ -1,8 +1,8 @@
 ---
-layout: index
+layout: home
 permalink: /
 lang: en
-og-image: http://rooooster.com/content/mcriviera/home.jpg
+og-image: http://mcriviera.com/assets/img/og-image/home.jpg
 
 SeoTitle: 'Monte Carlo Riviera'
 SeoAbout: 'Real Estate in Monaco and on the French Riviera'

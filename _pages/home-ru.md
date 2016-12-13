@@ -1,8 +1,8 @@
 ---
-layout: index
+layout: home
 permalink: /ru/
 lang: ru
-og-image: http://rooooster.com/content/mcriviera/home.jpg
+og-image: http://mcriviera.com/assets/img/og-image/home.jpg
 
 SeoTitle: 'Монте Карло Ривьера'
 SeoAbout: 'Недвижимость в Монако и на Лазурном Берегу Франции'

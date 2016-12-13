@@ -1,6 +1,6 @@
-baseurl: 
-
-exclude: ['README.md', 'CNAME']
+baseurl: ''
+include: ['_pages']
+exclude: ['README.md']
 
 sass:
   sass_dir: assets/css

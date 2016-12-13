@@ -1,15 +1,17 @@
-# Monte Carlo Riviera
+# monte-carlo-riviera.github.io
 
-### Legal Advice on French Law
-
-Web development of Monte Carlo Riviera site
-
-### Run
-
-`jekyll serve -w --baseurl ""`
+_Web development of Monte Carlo Riviera site_
 
 ### Used
 
-Static site generator - [Jekyll](https://jekyllrb.com)
+[Jekyll](https://jekyllrb.com) - static site generator based on [Ruby](https://www.ruby-lang.org)
 
-Proudly hosted by [GitHub Pages](https://pages.github.com)
+[Bourbon](http://bourbon.io) - [Sass](http://sass-lang.com) mixins pack 
+
+[GitHub Pages](https://pages.github.com) - free hosting
+
+### Run
+
+`jekyll serve -w --baseurl ''`
+
+#### Have fun! :)
