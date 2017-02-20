@@ -1,5 +1,6 @@
----
----
+@import '../node_modules/normalize.css/normalize';
+@import '../node_modules/coriolan-ui/mixins/clearfix';
+
 @import 'vendor/bourbon/bourbon';
 @import 'grid-settings';
 @import 'vendor/neat/neat';
